@@ -2,11 +2,11 @@
 sublime snippets for swagger php openapi 3.0
 
 ## HOW TO USE
-1、 git clone or download zip file
-2、 copy the snippets to sublime Packages/User folder
-* windows: eg. C:\Users\{YOURNAME}\AppData\Roaming\Sublime Text 3\Packages\User\swagger-php-openapi3.sublime-snippet\
-* mac: eg. 
-3、 launch your sublime text, try type oa-info, then press TAB
+- 1、 git clone or download zip file
+- 2、 copy the snippets to sublime Packages/User folder
+    * windows: eg. C:\Users\{YOURNAME}\AppData\Roaming\Sublime Text 3\Packages\User\swagger-php-openapi3.sublime-snippet\
+    * mac: eg. 
+- 3、 launch your sublime text, try type oa-info, then press TAB
 
 
 ## support snippets
