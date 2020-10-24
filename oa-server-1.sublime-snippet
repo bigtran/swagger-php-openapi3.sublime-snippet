@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Server(url = "${1:http://www.example.com/}", description = "${2:Description}")
+ */
+]]></content>
+	<tabTrigger>oa-server-1</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Server one-line-style</description>
+</snippet>

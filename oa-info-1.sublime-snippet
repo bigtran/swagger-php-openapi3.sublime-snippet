@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Info(title = "${1:Title}",version = "${2:1.0.0}",description = "${3:Description}",@OA\Contact(email="${4:support@example.com}"))
+ */
+]]></content>
+	<tabTrigger>oa-info-1</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Info one-line-style</description>
+</snippet>

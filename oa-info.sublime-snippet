@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Info(
+ *     title = "${1:TITLE}",
+ *     version = "${2:1.0.0}",
+ *     description = "${3:DESCRIPTION}",
+ *     termsOfService = "${4:http://www.example.com/terms}",
+ *     @OA\Contact(
+ *        name = "${5:NAME}",
+ *        email="${6:support@example.com}",
+ *        url = "${7:https://www.example.com/}"
+ *     ),
+ *     @OA\License(
+ *         name="Apache 2.0",
+ *         url="http://www.apache.org/licenses/LICENSE-2.0.html"
+ *     )
+ * )
+ */
+
+
+]]></content>
+	<tabTrigger>oa-info</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Info</description>
+</snippet>

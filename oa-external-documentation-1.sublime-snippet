@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\ExternalDocumentation(description="${1:Description}",url="${2:http://www.example.com}")
+ */
+]]></content>
+	<tabTrigger>oa-externaldocs-1</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\ExternalDocumentation one-line-style</description>
+</snippet>

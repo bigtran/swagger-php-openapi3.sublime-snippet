@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Schema(
+ *     title="${1:title}",
+ *     description="${2:Description}",
+ *     type="integer/",
+ *     format="int64/int32/string",
+ *     default="available",
+ *     required = true/false,
+ *     oa-property-in-schema,
+ *     oa-items-in-schema
+*/
+]]></content>
+	<tabTrigger>oa-schema-def</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Schema</description>
+</snippet>

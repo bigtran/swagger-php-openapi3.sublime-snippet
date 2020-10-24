@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Tag(
+ *     name="${1:TAG1}",
+ *     description="${2:Description}",
+ *     @OA\ExternalDocumentation(
+ *         description="${3:Description}",
+ *         url="${4:www.example.com}"
+ *     )
+ * )
+ * @OA\Tag(
+ *     name="${5:TAG2}",
+ *     description="${6:Description}",
+ *     @OA\ExternalDocumentation(
+ *         description="${7:Description}",
+ *         url="${8:www.example.com}"
+ *     )
+ * )
+ */
+]]></content>
+	<tabTrigger>oa-tag</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Tag</description>
+</snippet>

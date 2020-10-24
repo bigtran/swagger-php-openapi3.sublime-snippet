@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Tag(name="${1:TAG1}",description="${2:Description}")
+ * @OA\Tag(name="${3:TAG2}",description="${4:Description}")
+ * @OA\Tag(name="${5:TAG3}",description="${6:Description}")
+ */
+]]></content>
+	<tabTrigger>oa-tag-1</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Tag one-line-style</description>
+</snippet>

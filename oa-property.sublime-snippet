@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\Property(
+ *     title="${1:title}",
+ *     description="${2:Description}",
+ *     default = "${3:Default}",
+ *     format="${4:int32}",
+ *     type="${5:string}",
+ *     required = true/false,
+ *     enum={"enum_1", "enum_2", "enum_3"},
+ * )
+ *
+ * @var int
+ */
+]]></content>
+	<tabTrigger>oa-property</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Property</description>
+</snippet>

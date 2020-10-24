@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OA\RequestBody(
+ *     request="${1:Request}",
+ *     description="${2:Description}",
+ *     required=true,
+ *     @OA\JsonContent(ref="#/components/schemas/${3:schemaName}")
+ * )
+ */
+]]></content>
+	<tabTrigger>oa-requestbody</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Response</description>
+</snippet>

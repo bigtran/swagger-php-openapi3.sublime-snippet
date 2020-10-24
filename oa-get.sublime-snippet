@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+@OA\Get(
+*	path = "${1:/path}",
+*	tags = {"${2:someTag}"},
+*	operationId = "${3:uniqueIdInAllApi}",
+*	summary = "${4:Summary}",
+*	description = "${5:Description}",
+*	${6:"oa-response"}
+* )
+]]></content>
+	<tabTrigger>oa-get</tabTrigger>
+	<scope>source.php</scope>
+	<description>@OA\Get</description>
+</snippet>
